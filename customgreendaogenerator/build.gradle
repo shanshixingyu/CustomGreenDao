@@ -1,0 +1,8 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    // 以下设置主要是为了避免在运行的时候出现这个错误：“Gradle:错误:编码GBK的不可映射字符”
+    [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+}
