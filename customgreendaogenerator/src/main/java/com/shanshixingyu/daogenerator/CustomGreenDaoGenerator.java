@@ -15,7 +15,7 @@ public class CustomGreenDaoGenerator extends DaoGenerator {
         super();
 
         Configuration config = new Configuration();
-        File templateDir = new File("mtgreendaogenerator/src/main/res/template");
+        File templateDir = new File("customgreendaogenerator/src/main/res/template");
         if (!templateDir.exists() || !templateDir.isDirectory()) {
             throw new IllegalStateException("模板文件目录不存在");
         }

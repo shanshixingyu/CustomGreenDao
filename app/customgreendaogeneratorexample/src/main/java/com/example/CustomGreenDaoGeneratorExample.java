@@ -9,7 +9,7 @@ public class CustomGreenDaoGeneratorExample {
     public static void main(String[] args)
         throws Exception {
 
-        Schema schema = new Schema(1, "com.meitu.mtgreendaodemo.db.bean");
+        Schema schema = new Schema(1, "com.shanshixingyu.customgreendao.db.bean");
 
         Entity noteEntity = schema.addEntity("Note");
         noteEntity.addLongProperty("id").primaryKey();
