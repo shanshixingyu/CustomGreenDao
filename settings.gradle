@@ -1,2 +1,2 @@
-include ':app', ':customgreendaogenerator', ':app:customgreendaogeneratorexample'
+include ':app',":MGreenDaoGenerator",":app:MGreenDaoGeneratorExample"
 

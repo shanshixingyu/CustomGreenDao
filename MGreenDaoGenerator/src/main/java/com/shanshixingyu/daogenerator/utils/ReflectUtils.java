@@ -3,6 +3,7 @@ package com.shanshixingyu.daogenerator.utils;
 import java.lang.reflect.Field;
 
 /**
+ * 反射工具类
  * @author hwz on 2016-03-07.
  */
 public class ReflectUtils {
